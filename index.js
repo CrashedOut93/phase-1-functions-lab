@@ -1,4 +1,17 @@
 function distanceFromHqInBlocks(blocks){
-    return blocks
+    if(blocks > 42){
+        return blocks - 42;
+    }
+    else{
+        return 42 - blocks;
+    }
 }
-distanceFromHqInBlocks();
+
+function distanceTravelledInFeet (feet){
+    distanceFromHqInBlocks(blocks) 
+    return blocks * feet 
+         
+    
+}
+
+
